@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4F33061A9F232200CBB6FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F33051A9F232200CBB6FA /* AppDelegate.m */; };
+		3D4F33081A9F232200CBB6FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F33071A9F232200CBB6FA /* main.m */; };
+		3D4F330B1A9F232200CBB6FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F330A1A9F232200CBB6FA /* ViewController.m */; };
+		3D4F330D1A9F232200CBB6FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F330C1A9F232200CBB6FA /* Images.xcassets */; };
+		3D4F33101A9F232200CBB6FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F330E1A9F232200CBB6FA /* Main.storyboard */; };
+		3D4F331C1A9F232300CBB6FA /* AspectFitIssuesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F331B1A9F232300CBB6FA /* AspectFitIssuesTests.m */; };
+		3D4F33271A9F23CD00CBB6FA /* AspectRatioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F33261A9F23CD00CBB6FA /* AspectRatioView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D4F33161A9F232300CBB6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D4F32F71A9F232200CBB6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4F32FE1A9F232200CBB6FA;
+			remoteInfo = AspectFitIssues;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D4F32FF1A9F232200CBB6FA /* AspectFitIssues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspectFitIssues.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4F33031A9F232200CBB6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4F33041A9F232200CBB6FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D4F33051A9F232200CBB6FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D4F33071A9F232200CBB6FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D4F33091A9F232200CBB6FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D4F330A1A9F232200CBB6FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D4F330C1A9F232200CBB6FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D4F330F1A9F232200CBB6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D4F33151A9F232300CBB6FA /* AspectFitIssuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspectFitIssuesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4F331A1A9F232300CBB6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4F331B1A9F232300CBB6FA /* AspectFitIssuesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AspectFitIssuesTests.m; sourceTree = "<group>"; };
+		3D4F33251A9F23CD00CBB6FA /* AspectRatioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectRatioView.h; sourceTree = "<group>"; };
+		3D4F33261A9F23CD00CBB6FA /* AspectRatioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectRatioView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D4F32FC1A9F232200CBB6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F33121A9F232200CBB6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D4F32F61A9F232200CBB6FA = {
+			isa = PBXGroup;
+			children = (
+				3D4F33011A9F232200CBB6FA /* AspectFitIssues */,
+				3D4F33181A9F232300CBB6FA /* AspectFitIssuesTests */,
+				3D4F33001A9F232200CBB6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D4F33001A9F232200CBB6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F32FF1A9F232200CBB6FA /* AspectFitIssues.app */,
+				3D4F33151A9F232300CBB6FA /* AspectFitIssuesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D4F33011A9F232200CBB6FA /* AspectFitIssues */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F33041A9F232200CBB6FA /* AppDelegate.h */,
+				3D4F33051A9F232200CBB6FA /* AppDelegate.m */,
+				3D4F33091A9F232200CBB6FA /* ViewController.h */,
+				3D4F330A1A9F232200CBB6FA /* ViewController.m */,
+				3D4F330C1A9F232200CBB6FA /* Images.xcassets */,
+				3D4F330E1A9F232200CBB6FA /* Main.storyboard */,
+				3D4F33251A9F23CD00CBB6FA /* AspectRatioView.h */,
+				3D4F33261A9F23CD00CBB6FA /* AspectRatioView.m */,
+				3D4F33021A9F232200CBB6FA /* Supporting Files */,
+			);
+			path = AspectFitIssues;
+			sourceTree = "<group>";
+		};
+		3D4F33021A9F232200CBB6FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F33031A9F232200CBB6FA /* Info.plist */,
+				3D4F33071A9F232200CBB6FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D4F33181A9F232300CBB6FA /* AspectFitIssuesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F331B1A9F232300CBB6FA /* AspectFitIssuesTests.m */,
+				3D4F33191A9F232300CBB6FA /* Supporting Files */,
+			);
+			path = AspectFitIssuesTests;
+			sourceTree = "<group>";
+		};
+		3D4F33191A9F232300CBB6FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F331A1A9F232300CBB6FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D4F32FE1A9F232200CBB6FA /* AspectFitIssues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4F331F1A9F232300CBB6FA /* Build configuration list for PBXNativeTarget "AspectFitIssues" */;
+			buildPhases = (
+				3D4F32FB1A9F232200CBB6FA /* Sources */,
+				3D4F32FC1A9F232200CBB6FA /* Frameworks */,
+				3D4F32FD1A9F232200CBB6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AspectFitIssues;
+			productName = AspectFitIssues;
+			productReference = 3D4F32FF1A9F232200CBB6FA /* AspectFitIssues.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D4F33141A9F232200CBB6FA /* AspectFitIssuesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4F33221A9F232300CBB6FA /* Build configuration list for PBXNativeTarget "AspectFitIssuesTests" */;
+			buildPhases = (
+				3D4F33111A9F232200CBB6FA /* Sources */,
+				3D4F33121A9F232200CBB6FA /* Frameworks */,
+				3D4F33131A9F232200CBB6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D4F33171A9F232300CBB6FA /* PBXTargetDependency */,
+			);
+			name = AspectFitIssuesTests;
+			productName = AspectFitIssuesTests;
+			productReference = 3D4F33151A9F232300CBB6FA /* AspectFitIssuesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D4F32F71A9F232200CBB6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jonas Due Vesterheden";
+				TargetAttributes = {
+					3D4F32FE1A9F232200CBB6FA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3D4F33141A9F232200CBB6FA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3D4F32FE1A9F232200CBB6FA;
+					};
+				};
+			};
+			buildConfigurationList = 3D4F32FA1A9F232200CBB6FA /* Build configuration list for PBXProject "AspectFitIssues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D4F32F61A9F232200CBB6FA;
+			productRefGroup = 3D4F33001A9F232200CBB6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D4F32FE1A9F232200CBB6FA /* AspectFitIssues */,
+				3D4F33141A9F232200CBB6FA /* AspectFitIssuesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D4F32FD1A9F232200CBB6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F330D1A9F232200CBB6FA /* Images.xcassets in Resources */,
+				3D4F33101A9F232200CBB6FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F33131A9F232200CBB6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D4F32FB1A9F232200CBB6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F330B1A9F232200CBB6FA /* ViewController.m in Sources */,
+				3D4F33081A9F232200CBB6FA /* main.m in Sources */,
+				3D4F33271A9F23CD00CBB6FA /* AspectRatioView.m in Sources */,
+				3D4F33061A9F232200CBB6FA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F33111A9F232200CBB6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F331C1A9F232300CBB6FA /* AspectFitIssuesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D4F33171A9F232300CBB6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4F32FE1A9F232200CBB6FA /* AspectFitIssues */;
+			targetProxy = 3D4F33161A9F232300CBB6FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D4F330E1A9F232200CBB6FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4F330F1A9F232200CBB6FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D4F331D1A9F232300CBB6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D4F331E1A9F232300CBB6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D4F33201A9F232300CBB6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AspectFitIssues/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D4F33211A9F232300CBB6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AspectFitIssues/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D4F33231A9F232300CBB6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AspectFitIssuesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AspectFitIssues.app/Contents/MacOS/AspectFitIssues";
+			};
+			name = Debug;
+		};
+		3D4F33241A9F232300CBB6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AspectFitIssuesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AspectFitIssues.app/Contents/MacOS/AspectFitIssues";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D4F32FA1A9F232200CBB6FA /* Build configuration list for PBXProject "AspectFitIssues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4F331D1A9F232300CBB6FA /* Debug */,
+				3D4F331E1A9F232300CBB6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4F331F1A9F232300CBB6FA /* Build configuration list for PBXNativeTarget "AspectFitIssues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4F33201A9F232300CBB6FA /* Debug */,
+				3D4F33211A9F232300CBB6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D4F33221A9F232300CBB6FA /* Build configuration list for PBXNativeTarget "AspectFitIssuesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4F33231A9F232300CBB6FA /* Debug */,
+				3D4F33241A9F232300CBB6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D4F32F71A9F232200CBB6FA /* Project object */;
+}
